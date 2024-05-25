@@ -2,7 +2,14 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        tertiary: "var(--tertiary)",
+        quaternary: "var(--quaternary)",
+      },
+    },
   },
   plugins: [],
 };

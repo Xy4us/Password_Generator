@@ -13,18 +13,18 @@
       class="flex flex-col items-center justify-center h-[100%] w-[100%] gap-y-8"
     >
       <h1
-        class="text-white opacity-75 uppercase text-center tracking-[2.7px] leading-10 font-semibold text-3xl"
+        class="text-primary opacity-75 uppercase text-center tracking-[2.7px] leading-10 font-semibold text-3xl"
       >
         Password Generator
       </h1>
 
       <div
-        class="flex relative bg-[#f594ca] px-4 py-6 rounded-2xl mx-4 border-b-[6px] border-solid border-[#295080]"
+        class="flex relative bg-primary px-4 py-6 rounded-2xl mx-4 border-b-[6px] border-solid border-tertiary"
       >
         <input
           readonly
           placeholder="PASSWORD"
-          class="w-[100%] bg-transparent font-semibold text-2xl tracking-[1px] border-none leading-[30px] pr-11 placeholder-[#41fced8a] text-[#29f8e7fe]"
+          class="w-[100%] bg-transparent font-semibold text-2xl tracking-[1px] border-none leading-[30px] pr-11 placeholder-secondary text-tertiary"
           data-passwordDisplay
         />
 
@@ -35,12 +35,12 @@
       </div>
 
       <div
-        class="bg-[#0e1f34] rounded-2xl border-b-[6px] border-solid border-[#295080] p-8 mx-4 transition-all ease-in-out duration-[700mss]"
+        class="bg-primary rounded-2xl border-b-[6px] border-solid border-tertiary p-8 mx-4 transition-all ease-in-out duration-[700mss]"
       >
         <!--password length section-->
         <div class="flex justify-between items-center gap-32">
           <p class="text-white text-2xl">Password Length</p>
-          <p data-lengthNumber class="text-[#00fffb] text-2xl m-1">0</p>
+          <p data-lengthNumber class="text-quaternary text-2xl m-1">0</p>
         </div>
 
         <!--slider-->
@@ -84,7 +84,7 @@
 
         <!-- generate password-->
         <button
-          class="generateButton w-[100%] p-4 items-center rounded-xl border-b-[6px] border-solid uppercase leading-3 tracking-[1.5px] text-[#29f8e7fe] bg-[#277de7] font-semibold"
+          class="generateButton w-[100%] p-4 items-center rounded-xl border-b-[6px] border-solid uppercase leading-3 tracking-[1.5px] text-primary bg-secondary font-semibold"
         >
           Generate Password
         </button>
